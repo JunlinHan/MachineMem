@@ -7,6 +7,8 @@ This is the official PyTorch implementation of "What Images are More Memorable t
 [Junlin Han](https://junlinhan.github.io/), [Huangying Zhan](https://huangying-zhan.github.io/), Jie Hong, Pengfei Fang, [Hongdong Li](http://users.cecs.anu.edu.au/~hongdong/), [Lars Petersson](https://people.csiro.au/P/L/Lars-Petersson), [Ian Reid](https://cs.adelaide.edu.au/~ianr/) <br>
 University of Adelaide and Data61-CSIRO and Australian National University <br>
 
+<img src='ppline.png' align="middle" width=800>
+
 ### Getting started
 
 - Clone this repo:
@@ -16,7 +18,7 @@ git clone https://github.com/JunlinHan/MachineMem.git
 
 - Install PyTorch 1.7 or above and other dependencies (e.g., torchvision, timm, numpy, scipy, pillow, scikit-learn).
 
-  You may build a new conda environment by running `conda env create -f environment.yml`.
+- You may build a new conda environment by running `conda env create -f environment.yml`.
 - 
 ### How to run the code?
 
