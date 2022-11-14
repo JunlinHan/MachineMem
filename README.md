@@ -1,12 +1,34 @@
 # MachineMem
 
-This is the official PyTorch implementation of "What Images are More Memorable to Machines?" This repo currently supports the training and testing of MachineMem predictor. Instructions for using GANalyze are also provided. Codes of MachineMem measurer will be released around March 2023. 
+### [Project page](https://junlinhan.github.io/projects/machinemem.html), [arXiv](https://junlinhan.github.io/projects/machinemem.html)
+This is the official PyTorch implementation of "What Images are More Memorable to Machines?" This repo currently supports the training and testing of the MachineMem predictor. Instructions for GANalyze are also provided. Codes for running the MachineMem measurer will be released before March 2023.
 
 [What Images are More Memorable to Machines?](https://arxiv.org/abs/2201.12078) <br>
 [Junlin Han](https://junlinhan.github.io/), [Huangying Zhan](https://huangying-zhan.github.io/), Jie Hong, Pengfei Fang, [Hongdong Li](http://users.cecs.anu.edu.au/~hongdong/), [Lars Petersson](https://people.csiro.au/P/L/Lars-Petersson), [Ian Reid](https://cs.adelaide.edu.au/~ianr/) <br>
 University of Adelaide and Data61-CSIRO and Australian National University <br>
-[Project page](https://junlinhan.github.io/projects/machinemem.html), [arXiv](https://junlinhan.github.io/projects/machinemem.html)
 
+### Getting started
+
+- Clone this repo:
+```bash
+git clone https://github.com/JunlinHan/MachineMem.git
+```
+
+- Install PyTorch 1.7 or above and other dependencies (e.g., torchvision, timm, numpy, scipy, pillow, scikit-learn).
+
+  You may build a new conda environment by running `conda env create -f environment.yml`.
+- 
+### How to run the code?
+
+For predictor, please see [./predictor](predictor).
+
+For GANalyze, please see [./GANalyze_instructions](GANalyze_instructions).
+
+## Contact
+junlin.han@data61.csiro.au or junlinhcv@gmail.com
+
+## Cite
+Please consider citing our paper with the following bibtex:
 ```
 @inproceedings{han2022machinemem,
   title={What Images are More Memorable to Machines?},
@@ -15,23 +37,6 @@ University of Adelaide and Data61-CSIRO and Australian National University <br>
   year={2022}
 }
 ```
-   
-### Getting started
-- Clone this repo:
-```bash
-git clone https://github.com/JunlinHan/MachineMem.git
-```
-
-- Install PyTorch 1.7 or above and other dependencies (e.g., torchvision).
-
-  You may build a new conda environment by running `conda env create -f environment.yml`.
-### How to run the code?
-
-For predictor, please see [./predictor](predictor).
-
-For GANalyze, please see [./GANalyze_instructions](GANalyze_instructions).
-## Contact
-junlin.han@data61.csiro.au or junlinhcv@gmail.com
 
 ## Acknowledgments
 Our code is developed based on [official PyTorch ImageNet training code](https://github.com/pytorch/examples/tree/master/imagenet).
