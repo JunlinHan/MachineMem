@@ -19,7 +19,6 @@ git clone https://github.com/JunlinHan/MachineMem.git
 - Install PyTorch 1.7 or above and other dependencies (e.g., torchvision, timm, numpy, scipy, pillow, scikit-learn).
 
 - You may build a new conda environment by running `conda env create -f environment.yml`.
-- 
 ### How to run the code?
 
 For predictor, please see [./predictor](predictor).
@@ -30,7 +29,7 @@ For GANalyze, please see [./GANalyze_instructions](GANalyze_instructions).
 junlin.han@data61.csiro.au or junlinhcv@gmail.com
 
 ## Cite
-Please consider citing our paper with the following bibtex:
+If you use our code or our results/findings, please cite our paper. Thanks!
 ```
 @inproceedings{han2022machinemem,
   title={What Images are More Memorable to Machines?},
