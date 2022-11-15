@@ -1,5 +1,5 @@
 ## Preparation:
-Clone GANalyze via:
+Clone [GANalyze](https://github.com/LoreGoetschalckx/GANalyze) via:
 ```
 git clone https://github.com/LoreGoetschalckx/GANalyze.git
 cd GANalyze
@@ -33,3 +33,16 @@ python test_pytorch.py --checkpoint_dir [path to your checkpoint folder]
 ```
 
 Modify your checkpoint path to swap between HumanMem and MachineMem. Make sure the checkpoint is consistent with the weights you are using in mmnet.py (machine or human).
+
+
+## Cite:
+If you use something from GANalyze, you may cite:
+``` 
+@inproceedings{goetschalckx2019ganalyze,
+  title={Ganalyze: Toward visual definitions of cognitive image properties},
+  author={Goetschalckx, Lore and Andonian, Alex and Oliva, Aude and Isola, Phillip},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={5744--5753},
+  year={2019}
+}
+``` 
