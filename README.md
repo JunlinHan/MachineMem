@@ -1,7 +1,7 @@
 # MachineMem
 
 ### [Project page](https://junlinhan.github.io/projects/machinemem.html), [arXiv](https://arxiv.org/abs/2211.07625)
-This is the official PyTorch implementation of "What Images are More Memorable to Machines?" This repo currently supports the training and testing of the MachineMem predictor. Instructions for GANalyze are also provided. Codes for running the MachineMem measurer will be released before March 2023.
+This is the official PyTorch implementation of "What Images are More Memorable to Machines?" This repo currently supports the training and testing of the MachineMem predictor. Instructions for GANalyze are also provided. Codes for running the MachineMem measurer will be released after paper acceptance.
 
 [What Images are More Memorable to Machines?](https://junlinhan.github.io/projects/machinemem.html) <br>
 [Junlin Han](https://junlinhan.github.io/), [Huangying Zhan](https://huangying-zhan.github.io/), Jie Hong, Pengfei Fang, [Hongdong Li](http://users.cecs.anu.edu.au/~hongdong/), [Lars Petersson](https://people.csiro.au/P/L/Lars-Petersson), [Ian Reid](https://cs.adelaide.edu.au/~ianr/) <br>
